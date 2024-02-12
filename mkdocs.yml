@@ -1,0 +1,24 @@
+site_name: "docs.example"
+site_url: https://example.com/
+plugins:
+  - blog:
+      blog_dir: blog
+nav:
+  - Home: index.md
+  - About: about.md
+  - Test: test.md
+  - Blog:
+      - blog/index.md
+theme:
+  name: material
+  language: ja
+  font:
+    text: Kosugi
+  palette:
+    primary: indigo
+    accent: amber
+  favicon: images/favicon.png
+  features:
+    - navigation.indexes
+extra_css:
+  - stylesheets/extra.css
