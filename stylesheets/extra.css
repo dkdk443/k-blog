@@ -1,0 +1,9 @@
+@font-face {
+  font-family: "Roboto Mono";
+  src: "...";
+}
+
+:root {
+  --md-text-font: "Roboto";
+  --md-code-font: "Mono";
+}
